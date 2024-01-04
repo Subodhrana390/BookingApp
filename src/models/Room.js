@@ -28,19 +28,5 @@ const roomSchema = new Schema(
   { timestamps: true }
 );
 
-[
-  {
-    number: 101,
-    unavailableDates: [],
-  },
-  {
-    number: 102,
-    unavailableDates: [],
-  },
-  {
-    number: 103,
-    unavailableDates: [],
-  },
-];
 
 export const Room = mongoose.model("Room", roomSchema);
